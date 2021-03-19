@@ -3,18 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio Web: Rafael Schmitz</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <style>
+        body {
+            background-color: #f0f4ef;
+            font-family:'Comfortaa';
+        }
+        .imageStyle {
+        border-radius: 100%;
+        }
+        .titleStyle {
+            color: #344966;
+        }
+        .textStyle{
+            color: #344966;
+            text-align: center;
+        }
+        .buttonStyle{
+            color:#f0f4ef;
+            background-color:#0d1821;
+            padding: 10px;
+            text-decoration: none;
+            font-weight: 700;
+            border-radius: 10px;
+        }
+        .divStyle{
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
-    <h1 class = "titleStyle" id="Habilidades">Perfil</h1>
+    <h2 class = "titleStyle">Perfil</h1>
     <table style="width:80%">
     <tr>
         <td> 
             <img src="tche.jpg" class="imageStyle" width="100px" id="Rafa">
         </td>
         <td>
-            <h3 class = "titleStyle">Nome Completo: Rafael Berti Schmitz</h2>
+            <h3 class = "titleStyle">Nome Completo: Rafael Berti Schmitz</h3>
             <p><strong>Engenheiro</strong>, casado com a <em>Camilla</em> e papai do <em>Mathias</em>.</p>
             <p><strong>Brasileiro</strong>, natural de <em>Caxias do Sul-RS</em> e residente em <strong>Palhoça-SC</strong>.</p> 
             <p><em>Estudante de Desenvolvimento Web na Trybe.</em></p>
@@ -22,30 +51,29 @@
     </tr>
     </table>
     
-    <h1 class = "titleStyle" id="Habilidades">Habilidades</h1>
+    <h2 class = "titleStyle" id="Habilidades">Habilidades</h1>
     <ul>
+        <li><strong>Aprendendo Linux, HTML e CSS</strong></li>
         <li><strong>Programação Arduino</strong></li>
         <li><strong>Programação Labview</strong></li>
         <li>Programação Matlab</li>
         <li>Programação em linguagem C</li>
-        <li>Aprendendo Linux, HTML e CSS</li>
         <li><strong>Inglês Avançado</strong></li>
         <li>Pacote Office</li>
     </ul>
     
-    <h1 class = "titleStyle" id="Currículo">Currículo</h1>
+    <h2 class = "titleStyle" id="Currículo">Currículo</h1>
     <p>Para conhecer a minha trajetória, acesse meu perfil no 
     <a href="https://www.linkedin.com/in/rafaelbschmitz/" class=buttonStyle>Linkedin</a></p>
     
-    <h1 class = "titleStyle" id="Interesses">Interesses</h1>
+    <h2 class = "titleStyle" id="Interesses">Interesses</h1>
     <p>Mais informações sobre programação e carreira, acesse o site:
     <a href="https://blog.geekhunter.com.br" class=buttonStyle> Geek Hunter</a></p>
     
     <div class = "divStyle">
     <br>
-    <p><strong>Seções</strong></p>
+    <h3 class = "titleStyle">Seções</h3>
     <a href="#Rafa" class=buttonStyle>Ver foto</a>
-    <a href="#Perfil" class=buttonStyle>Perfil</a>
     <a href="#Habilidades" class=buttonStyle>Habilidades</a>
     <a href="#Currículo" class=buttonStyle>Currículo</a>
     <a href="#Interesses" class=buttonStyle>Interesses</a>
