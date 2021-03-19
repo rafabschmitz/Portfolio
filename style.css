@@ -1,0 +1,28 @@
+<style>
+    body{
+        font-family:cursive;
+        background-color: #f0f4ef;
+    }
+        
+    .imageStyle {
+        border-radius: 100%;
+    }
+    .titleStyle {
+        color: #344966;
+    }
+    .textStyle{
+        color: #344966;
+        text-align: center;
+    }
+    .buttonStyle{
+        color:#f0f4ef;
+        background-color:#0d1821;
+        padding: 10px;
+        text-decoration: none;
+        font-weight: 700;
+        border-radius: 10px;
+    }
+    .divStyle{
+        text-align: center;
+    }
+</style>
