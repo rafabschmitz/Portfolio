@@ -5,6 +5,7 @@ body {
 .imageStyle {
     border-radius: 100%;
     border-style: solid;
+    border-width: thin;
     width: 100px;
 }
 .titleStyle {
