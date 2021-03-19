@@ -3,37 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio Web: Rafael Schmitz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-    <strong>Seções</strong>
-    <ul>
-        <li><a href="#Perfil">Perfil</a></li>
-        <li><a href="#Habilidades">Habilidades</a></li>
-        <li><a href="#Currículo">Currículo</a></li>
-        <li><a href="#Interesses">Interesses</a></li>
-    </ul>
-    <h1 id="Habilidades">Perfil</h1>
-    <img src="tche.jpg" alt="Rafael em um dia feliz" width="100px" id="Rafa">
-    <h2>Nome Completo: Rafael Berti Schmitz</h2>
-    <p><strong>Engenheiro</strong>, casado com a <em>Camilla</em> e papai do <em>Mathias</em>.</p>
-    <p><strong>Brasileiro</strong>, natural de <em>Caxias do Sul-RS</em> e residente em <strong>Palhoça-SC</strong>.</p> 
-    <p><em>Estudante de Desenvolvimento Web na Trybe.</em></p>
-    <h1 id="Habilidades">Habilidades</h1>
+    <h1 class = "titleStyle" id="Habilidades">Perfil</h1>
+    <table style="width:80%">
+    <tr>
+        <td> 
+            <img src="tche.jpg" class="imageStyle" width="100px" id="Rafa">
+        </td>
+        <td>
+            <h3 class = "titleStyle">Nome Completo: Rafael Berti Schmitz</h2>
+            <p><strong>Engenheiro</strong>, casado com a <em>Camilla</em> e papai do <em>Mathias</em>.</p>
+            <p><strong>Brasileiro</strong>, natural de <em>Caxias do Sul-RS</em> e residente em <strong>Palhoça-SC</strong>.</p> 
+            <p><em>Estudante de Desenvolvimento Web na Trybe.</em></p>
+        </td>
+    </tr>
+    </table>
+    
+    <h1 class = "titleStyle" id="Habilidades">Habilidades</h1>
     <ul>
         <li><strong>Programação Arduino</strong></li>
         <li><strong>Programação Labview</strong></li>
         <li>Programação Matlab</li>
         <li>Programação em linguagem C</li>
-        <li>Aprendendo Linux e HTML</li>
+        <li>Aprendendo Linux, HTML e CSS</li>
         <li><strong>Inglês Avançado</strong></li>
         <li>Pacote Office</li>
     </ul>
-    <h1 id="Currículo">Currículo</h1>
+    
+    <h1 class = "titleStyle" id="Currículo">Currículo</h1>
     <p>Para conhecer a minha trajetória, acesse meu perfil no 
-    <a href="https://www.linkedin.com/in/rafaelbschmitz/"/> <button>Linkedin</button></a></p>
-    <h1 id="Interesses">Interesses</h1>
+    <a href="https://www.linkedin.com/in/rafaelbschmitz/" class=buttonStyle>Linkedin</a></p>
+    
+    <h1 class = "titleStyle" id="Interesses">Interesses</h1>
     <p>Mais informações sobre programação e carreira, acesse o site:
-        <a href="https://blog.geekhunter.com.br"/> <button>Geek Hunter</button></a></p>
-    <a href="#Rafa"> <button>Ver foto</button></a>
-    </body>
+    <a href="https://blog.geekhunter.com.br" class=buttonStyle> Geek Hunter</a></p>
+    
+    <div class = "divStyle">
+    <br>
+    <p><strong>Seções</strong></p>
+    <a href="#Rafa" class=buttonStyle>Ver foto</a>
+    <a href="#Perfil" class=buttonStyle>Perfil</a>
+    <a href="#Habilidades" class=buttonStyle>Habilidades</a>
+    <a href="#Currículo" class=buttonStyle>Currículo</a>
+    <a href="#Interesses" class=buttonStyle>Interesses</a>
+    </div>
+</body>
 </html>
