@@ -2,18 +2,36 @@ body {
     background-color: #f0f4ef;
     font-family:'Comfortaa';
 }
-.imageStyle {
-    border-radius: 100%;
-    border-style: solid;
-    width: 100px;
-}
-.titleStyle {
-    color: #344966;
-}
-.textStyle{
-    color: #344966;
+
+.hero-title, .divStyle{
     text-align: center;
 }
+
+.titleStyle, .hero-title {
+    color: #344966;
+    margin-top: 0;
+}
+
+.image-container{
+    text-align: center;
+    width: 150px;
+    display: inline-block;
+    background-color:#344966;
+    padding: 1px;
+    border-radius: 20px;
+}
+
+.imageStyle {
+    border-radius: 100%;
+    width: 130px;
+}
+
+.text-container{
+    width: 600px; /* para encaixar divs lado a lado */
+    display: inline-block;
+    margin-left: 10px;
+}
+
 .buttonStyle{
     color:#f0f4ef;
     background-color:#0d1821;
@@ -22,6 +40,7 @@ body {
     font-weight: 700;
     border-radius: 10px;
 }
-.divStyle{
-    text-align: center;
+
+ul li:nth-of-type(odd){
+    font-style: italic;
 }
